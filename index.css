@@ -1,0 +1,86 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    height:100vh;
+    background-color: rgb(151, 108, 241); 
+}
+
+ .container{
+     background-color: white;
+     margin: 80px auto;
+     border-radius: 10px;
+     height:400px; 
+     width: 550px;
+     padding:10px;
+     text-align: center;
+ }
+.sc{
+    font-family: sans-serif;
+    margin-top: 40px;
+    align-content: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+   
+ }
+ #counter{
+    font-size:60px;
+    font-weight: bold;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+#buttons{
+     display: flex;
+     justify-content: center;
+     gap:30px;
+     
+ }
+ #dec{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: rgb(228, 58, 58);
+    padding: 10px 20px;
+    border: none;  
+    border-radius: 8px;
+    transition:transform 0.6s ease, box-shadow 0.6s ease;
+
+ }
+ #reset{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: rgb(144, 143, 240);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    transition:transform 0.6s ease, box-shadow 0.6s ease;
+ }
+#inc{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: rgb(81, 227, 79);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    transition:transform 0.6s ease, box-shadow 0.6s ease;
+ }
+ 
+#dec:hover{
+    transform: translatey(-3px);
+    box-shadow: 0 10px 15px rgb(228, 58, 58, 0.3);
+ }
+
+#reset:hover{
+    transform: translatey(-3px);
+    box-shadow: 0 10px 15px rgb(144, 143, 240, 0.3);
+ }
+#inc:hover{
+    transform: translatey(-3px);
+    box-shadow: 0 10px 15px rgb(81, 227, 79, 0.3);
+ }
